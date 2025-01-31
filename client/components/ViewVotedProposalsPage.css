@@ -1,0 +1,44 @@
+.page-title {
+    margin-top: 40px;
+    color: #007bff;
+}
+
+.view-voted-container {
+    background-color: #f8f9fa; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  
+  .alert {
+    margin-top: 15px; 
+  }
+  
+  .btn {
+    font-size: 14px; 
+  }
+  
+  .table {
+    margin-top: 15px; 
+  }
+  
+  .table th, .table td {
+    vertical-align: middle; 
+  }
+  
+  .table th {
+    background-color: #007bff; 
+    color: white; 
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 123, 255, 0.1); 
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.2); 
+  }
+  
+
+

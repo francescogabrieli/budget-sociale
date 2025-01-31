@@ -1,0 +1,108 @@
+#This file is used for testing the API with rest api extension
+
+#Retrieving all proposals for a user
+GET http://localhost:3001/api/proposals/4 HTTP/1.1
+###
+
+#Retrieving all proposals in database
+GET http://localhost:3001/api/proposals HTTP/1.1
+###
+
+#Adding a proposal
+POST http://localhost:3001/api/proposals/add HTTP/1.1
+content-Type: application/json
+
+{
+    
+    "description": "Reimpianto alberi",
+    "cost": 500
+}
+###
+
+# Updates a proposal
+PUT http://localhost:3001/api/proposals/51 HTTP/1.1
+content-type: application/json
+
+{
+    "description": "Ristrutturazione edificio scuola elementare",
+    "cost": 700
+}
+###
+
+#Vote for a proposal
+POST http://localhost:3001/api/proposals/52/vote HTTP/1.1
+content-type: application/json
+    
+{
+    "score": 2
+}
+###
+
+# Delete a proposal
+DELETE http://localhost:3001/api/proposals/51 HTTP/1.1
+###
+
+# Retrieve all preferences for a user
+GET http://localhost:3001/api/preferences/4 HTTP/1.1
+###
+
+# Delete a preference
+DELETE http://localhost:3001/api/preferences/52 HTTP/1.1
+###
+
+# Get all preferences approved sorting them by score
+POST http://localhost:3001/api/proposals/approved HTTP/1.1
+###
+
+POST http://localhost:3001/api/proposals/not-approved HTTP/1.1
+###
+
+# Insert budget
+POST http://localhost:3001/api/budget HTTP/1.1
+content-type: application/json
+
+{
+    "amount": 1500
+}
+###
+
+# Retrieve budget
+GET http://localhost:3001/api/budget HTTP/1.1
+###
+
+# Set phase
+PUT http://localhost:3001/api/budget/phase HTTP/1.1
+###
+
+GET http://localhost:3001/api/budget/phase HTTP/1.1
+###
+## Execute Log In
+POST http://localhost:3001/api/sessions HTTP/1.1
+content-type: application/json
+
+{
+    "username": "fgabrieli",
+    "password": "1234"
+}
+###
+
+## Checking if user is still logged-in.
+GET http://localhost:3001/api/sessions/current HTTP/1.1
+###
+
+## Execute Log Out.
+DELETE http://localhost:3001/api/sessions/current HTTP/1.1
+###
+
+
+# Reset all tables
+POST http://localhost:3001/api/reset-database HTTP/1.1
+###
+
+POST http://localhost:3001/api/budget/phase HTTP/1.1
+###
+
+GET http://localhost:3001/api/budget/phase HTTP/1.1
+###
+
+PUT http://localhost:3001/api/budget/phase HTTP/1.1

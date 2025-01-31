@@ -1,0 +1,28 @@
+.admin-phase-container {
+    margin-top: 20px;
+}
+
+.admin-phase-content {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-phase-title {
+    color: #007bff;
+}
+
+.budget-form-container {
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.budget-form-title {
+    color: #343a40;
+    font-size: 24px;
+    margin-bottom: 20px;
+}

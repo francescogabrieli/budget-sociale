@@ -1,0 +1,61 @@
+.login-card {
+  max-width: 700px; 
+  margin: 2rem auto; 
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+}
+
+.login-card .card-body {
+  padding: 2rem;
+}
+
+.login-card h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+  font-weight: 700; 
+}
+
+.login-card .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.login-card .btn {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.login-card .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.login-card .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.login-card .btn-outline-info {
+  color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.login-card .btn-outline-info:hover {
+  color: #117a8b;
+  background-color: #e2f0f1;
+  border-color: #17a2b8;
+}
+
+.login-card .alert {
+  margin-bottom: 1rem;
+}
+
+.user-icon-container {
+  text-align: center; 
+  margin-bottom: 2rem; 
+}
+
+.user-icon {
+  font-size: 5rem; 
+  color: #007bff; 
+}

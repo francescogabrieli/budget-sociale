@@ -1,0 +1,55 @@
+.phase-header {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.phase-container {
+    margin-top: 2rem;
+}
+
+.proposal-container {
+    background-color: #f8f9fa; 
+    padding: 1rem; 
+    margin-bottom: 2rem; 
+    border: 1px solid #ced4da; 
+    border-radius: 1.00rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.proposal-title {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.no-proposals-message {
+    margin-top: 1rem;
+}
+
+.proposal-card {
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da; 
+    border-radius: 0.25rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+}
+
+.proposal-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.card-body {
+    padding: 1rem; 
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.icon {
+    margin-right: 0.5rem; 
+}

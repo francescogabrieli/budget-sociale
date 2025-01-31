@@ -1,0 +1,84 @@
+.phase-container {
+  margin-top: 40px;
+}
+
+.phase-content {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.phase-header {
+  color: #343a40;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-phase-title {
+  margin-top: 40px;
+  color: #007bff;
+}
+
+.budget-container {
+  padding: 20px;
+  margin-top: 20px;
+  border: none; 
+  border-radius: 8px;
+  background-color: #f8f9fa; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.budget-title {
+  color: #007bff; 
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.budget-amount {
+  font-size: 24px; 
+  color: #343a40; 
+}
+
+.proposals-list {
+  margin-top: 20px;
+}
+
+.add-proposal-btn {
+  margin-top: 20px;
+}
+
+.add-proposal-form {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.proposal-card {
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.proposal-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+button .fa-plus,
+button .fa-edit,
+button .fa-trash,
+button .fa-arrow-right {
+  margin-right: 8px;
+}

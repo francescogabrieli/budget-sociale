@@ -1,0 +1,61 @@
+.user-phase2-container {
+    padding: 20px;
+  }
+  
+  .phase-header {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .phase-container {
+    margin-top: 20px;
+  }
+  
+  .proposals-list {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .proposal-card {
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  
+  .proposal-description {
+    font-weight: bold;
+  }
+  
+  .proposal-cost {
+    color: #6c757d;
+  }
+  
+  .dropdown-menu {
+    text-align: center;
+  }
+  
+  .btn-primary {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn-primary .fa-eye {
+    margin-right: 5px;
+  }
+  
+  .btn-success {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn-success .fa-thumbs-up {
+    margin-right: 5px;
+  }
+  
+  
+  .toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+  }
+  

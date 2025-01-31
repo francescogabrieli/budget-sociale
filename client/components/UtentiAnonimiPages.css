@@ -1,0 +1,29 @@
+.user-phase-container {
+    margin-top: 20px;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-phase-content {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center; 
+    width: 80%; 
+    max-width: 800px; 
+}
+
+.user-phase-title {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 30px; 
+}
+
+.user-phase-message {
+    font-size: 1.5rem; 
+    color: #6c757d; 
+}
