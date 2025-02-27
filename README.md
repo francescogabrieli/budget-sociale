@@ -1,7 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/OLXYiqlj)
-# Exam #2: "Budget Sociale"
-## Student: s333237 Gabrieli Francesco
-
 ## File overview
 
 - `index.mjs`: It defines all the APIs endpoints and behavior. It interact with database and returns to the clienti the desired data;
